@@ -1,3 +1,7 @@
+
+![image](https://github.com/JaswanthChowdary2803/Human-Activity-Recognition/assets/121118142/e4785788-5e2c-4e09-ad78-c57768fd3724)
+
+
 In an era where video content is ubiquitous, understanding and interpreting human activities from these visual streams have become essential for various domains. Our project presents a novel approach to this challenge by employing a fusion of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) models. By integrating these cutting-edge technologies, we aim to revolutionize the field of video activity detection, enabling precise recognition and classification of human actions across a diverse spectrum of 101 classes.
 
 At the core of our methodology lies the Convolutional Neural Network (CNN), a deep learning architecture renowned for its exceptional ability to extract spatial features from images. In our context, CNN serves as the foundation for processing individual video frames, effectively capturing intricate details and patterns that characterize different human activities. By analyzing each frame independently, our model gains insights into the spatial context of actions, laying the groundwork for robust activity detection.
