@@ -1,54 +1,9 @@
-Sentiment Analysis for Offense Detection using BERT and BiLSTM
-This project aims to detect the sentiment of reviews as either offensive or not. It utilizes BERT (Bidirectional Encoder Representations from Transformers) for word embeddings and a Bidirectional Long Short-Term Memory (BiLSTM) model for sentiment analysis.
+In an era where video content is ubiquitous, understanding and interpreting human activities from these visual streams have become essential for various domains. Our project presents a novel approach to this challenge by employing a fusion of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) models. By integrating these cutting-edge technologies, we aim to revolutionize the field of video activity detection, enabling precise recognition and classification of human actions across a diverse spectrum of 101 classes.
 
-Overview
-The project consists of several components:
+At the core of our methodology lies the Convolutional Neural Network (CNN), a deep learning architecture renowned for its exceptional ability to extract spatial features from images. In our context, CNN serves as the foundation for processing individual video frames, effectively capturing intricate details and patterns that characterize different human activities. By analyzing each frame independently, our model gains insights into the spatial context of actions, laying the groundwork for robust activity detection.
 
-Data Collection: The dataset used for training and testing the model. It typically consists of reviews labeled with their corresponding sentiment (offensive or not).
+Complementing the CNN, we integrate the Long Short-Term Memory (LSTM) network, a specialized variant of Recurrent Neural Networks (RNNs) tailored for sequential data analysis. Unlike traditional feedforward networks, LSTM excels in capturing temporal dependencies within sequences, making it ideal for modeling the dynamics of human motion over time. By leveraging LSTM, our model can effectively track the progression of activities, discerning subtle variations and transitions that occur throughout the video sequence.
 
-Preprocessing: Cleaning and preprocessing the data, including tokenization and padding.
+The synergy between CNN and LSTM forms the backbone of our approach, enabling holistic understanding and interpretation of human activities from video data. Through extensive training on diverse datasets encompassing a wide array of activities, our model learns to generalize patterns and adapt to various contexts, ensuring robust performance across different scenarios. Moreover, our framework facilitates seamless scalability, allowing for the incorporation of additional classes or fine-tuning to cater to specific application requirements.
 
-Model Architecture:
-
-BERT: Pre-trained model for word embeddings.
-BiLSTM: Bidirectional Long Short-Term Memory neural network for sentiment analysis.
-Training: Training the sentiment analysis model using BERT embeddings and BiLSTM architecture.
-
-Evaluation: Assessing the performance of the model using metrics such as accuracy, precision, recall, and F1-score.
-
-Web Interface: Connecting the trained model to a web interface using Flask, allowing users to input text and receive sentiment analysis results.
-
-Dependencies
-Ensure you have the following dependencies installed:
-
-Python 3.x
-TensorFlow
-PyTorch
-Transformers
-Flask
-You can install Python dependencies via pip:
-
-
-Usage
-Training:
-
-Run train.py to train the sentiment analysis model using the provided dataset.
-Adjust hyperparameters and model architecture as needed.
-Web Interface:
-
-Run app.py to start the Flask web server.
-Access the web interface through your browser.
-Customization:
-
-Feel free to customize the model architecture, add additional preprocessing steps, or incorporate different embeddings/models based on your requirements.
-Dataset
-The dataset used for training and testing the model should be in a tabular format with at least two columns: one for the review text and another for the corresponding sentiment label (e.g., offensive or not).
-
-Ensure the dataset is properly labeled and balanced to avoid bias in model training.
-
-Acknowledgments
-This project utilizes pre-trained BERT models from the Hugging Face Transformers library.
-Flask is used for building the web interface.
-License
-This project is licensed under the MIT License.
-
+In practical applications, our technology holds immense potential for enhancing surveillance systems, enabling real-time monitoring and detection of suspicious behaviors or anomalous activities. Furthermore, in the realm of sports analytics, our model opens avenues for in-depth performance analysis, providing coaches and athletes with valuable insights into movement patterns, strategies, and player interactions. By bridging the gap between computer vision and human activity understanding, our project paves the way for transformative innovations across diverse domains, heralding a new era of intelligent video analysis and interpretation.
